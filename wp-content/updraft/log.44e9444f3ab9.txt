@@ -1,0 +1,444 @@
+0000.000 (0) Opened log file at time: Mon, 18 Feb 2019 21:12:14 +0000 on http://ozoisans.com/strasbourg
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.6 WP: 4.9.9 PHP: 7.3.2 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 5.5.60-0+deb7u1-log WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 57.3M | 58.5M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 777678.8 MB
+0000.004 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.008 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.009 (0) Set semaphore last lock (fd) time to 2019-02-18 21:12:14
+0000.010 (0) Semaphore lock (fd) complete
+0000.012 (0) Backup run: resumption=0, nonce=44e9444f3ab9, file_nonce=44e9444f3ab9 begun at=1550524334 (0s ago), job type=backup
+0000.014 (0) Scheduling a resumption (1) after 300 seconds (1550524634) in case this run gets aborted
+0000.020 (0) Checking if we have a zip executable available
+0000.021 (0) Testing: /usr/bin/zip
+0000.027 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.028 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.028 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.029 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.029 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.036 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.037 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.041 (0) Working binary zip found: /usr/bin/zip
+0000.043 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.044 (0) Creation of backups of directories: beginning
+0000.047 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.117 (0) Total entities for the zip file: 978 directories, 4912 files (0 skipped as non-modified), 75.1 MB
+0000.119 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.121 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.123 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.125 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.127 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.128 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.2 MB, 4912 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.329 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: size is now: 2.90 MB
+0000.333 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 600 files added (on-disk size: 2970.4 KB)
+0000.335 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 700 files added (on-disk size: 2970.4 KB)
+0000.337 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 800 files added (on-disk size: 2970.4 KB)
+0000.340 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 900 files added (on-disk size: 2970.4 KB)
+0000.342 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 1000 files added (on-disk size: 2970.4 KB)
+0000.342 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.9 MB, 4912 files batched, 501 (1002) added so far); re-opening (prior size: 2970.4 KB)
+0001.024 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: size is now: 7.20 MB
+0001.028 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 1100 files added (on-disk size: 7399.8 KB)
+0001.030 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 1200 files added (on-disk size: 7399.8 KB)
+0001.032 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 1300 files added (on-disk size: 7399.8 KB)
+0001.034 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 1400 files added (on-disk size: 7399.8 KB)
+0001.036 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 1500 files added (on-disk size: 7399.8 KB)
+0001.037 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 4912 files batched, 501 (1503) added so far); re-opening (prior size: 7399.8 KB)
+0001.159 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 1600 files added (on-disk size: 8222.6 KB)
+0001.162 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 1700 files added (on-disk size: 8222.6 KB)
+0001.164 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 1800 files added (on-disk size: 8222.6 KB)
+0001.166 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 1900 files added (on-disk size: 8222.6 KB)
+0001.168 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 2000 files added (on-disk size: 8222.6 KB)
+0001.169 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.1 MB, 4912 files batched, 501 (2004) added so far); re-opening (prior size: 8222.6 KB)
+0001.361 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 2100 files added (on-disk size: 9552.7 KB)
+0001.364 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 2200 files added (on-disk size: 9552.7 KB)
+0001.366 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 2300 files added (on-disk size: 9552.7 KB)
+0001.369 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 2400 files added (on-disk size: 9552.7 KB)
+0001.371 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 2500 files added (on-disk size: 9552.7 KB)
+0001.371 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.4 MB, 4912 files batched, 501 (2505) added so far); re-opening (prior size: 9552.7 KB)
+0002.028 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: size is now: 14.50 MB
+0002.032 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 2600 files added (on-disk size: 14826.4 KB)
+0002.034 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 2700 files added (on-disk size: 14826.4 KB)
+0002.036 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 2800 files added (on-disk size: 14826.4 KB)
+0002.038 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 2900 files added (on-disk size: 14826.4 KB)
+0002.040 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 3000 files added (on-disk size: 14826.4 KB)
+0002.041 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.7 MB, 4912 files batched, 501 (3006) added so far); re-opening (prior size: 14826.4 KB)
+0002.375 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: size is now: 17.70 MB
+0002.378 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 3100 files added (on-disk size: 18130.1 KB)
+0002.380 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 3200 files added (on-disk size: 18130.1 KB)
+0002.383 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 3300 files added (on-disk size: 18130.1 KB)
+0002.385 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 3400 files added (on-disk size: 18130.1 KB)
+0002.387 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 3500 files added (on-disk size: 18130.1 KB)
+0002.387 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.2 MB, 4912 files batched, 501 (3507) added so far); re-opening (prior size: 18130.1 KB)
+0002.517 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 3600 files added (on-disk size: 19055.3 KB)
+0002.519 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 3700 files added (on-disk size: 19055.3 KB)
+0002.521 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 3800 files added (on-disk size: 19055.3 KB)
+0002.524 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 3900 files added (on-disk size: 19055.3 KB)
+0002.527 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 4000 files added (on-disk size: 19055.3 KB)
+0002.528 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.9 MB, 4912 files batched, 501 (4008) added so far); re-opening (prior size: 19055.3 KB)
+0003.028 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 4100 files added (on-disk size: 22104.8 KB)
+0003.031 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 4200 files added (on-disk size: 22104.8 KB)
+0003.033 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 4300 files added (on-disk size: 22104.8 KB)
+0003.035 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 4400 files added (on-disk size: 22104.8 KB)
+0003.038 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 4500 files added (on-disk size: 22104.8 KB)
+0003.038 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 4912 files batched, 501 (4509) added so far); re-opening (prior size: 22104.8 KB)
+0003.232 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 4600 files added (on-disk size: 23234.6 KB)
+0003.235 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 4700 files added (on-disk size: 23234.6 KB)
+0003.238 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 4800 files added (on-disk size: 23234.6 KB)
+0003.240 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip.tmp: 4900 files added (on-disk size: 23234.6 KB)
+0003.934 (0) Created plugins zip (0) - 26102.1 KB in 3.9 s (6718.4 KB/s) (sha1: 6f939cd8bef067b1a7d23ce0370e7da8df390819, sha256: e473f0b5cd9f1381bad3a68baf7b78d92a6556bb8d88d729a195a7af25419678)
+0003.935 (0) Beginning creation of dump of themes (split every: 400 MB)
+0003.953 (0) Total entities for the zip file: 211 directories, 1296 files (0 skipped as non-modified), 29.1 MB
+0003.955 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.957 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.959 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0003.961 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0003.963 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0003.964 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.9 MB, 1296 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0004.312 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-themes.zip.tmp: size is now: 7.70 MB
+0004.316 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-themes.zip.tmp: 600 files added (on-disk size: 7906.1 KB)
+0004.318 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-themes.zip.tmp: 700 files added (on-disk size: 7906.1 KB)
+0004.321 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-themes.zip.tmp: 800 files added (on-disk size: 7906.1 KB)
+0004.323 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-themes.zip.tmp: 900 files added (on-disk size: 7906.1 KB)
+0004.325 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-themes.zip.tmp: 1000 files added (on-disk size: 7906.1 KB)
+0004.325 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.5 MB, 1296 files batched, 501 (1002) added so far); re-opening (prior size: 7906.1 KB)
+0004.628 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-themes.zip.tmp: size is now: 11.50 MB
+0004.631 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-themes.zip.tmp: 1100 files added (on-disk size: 11784.6 KB)
+0004.633 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-themes.zip.tmp: 1200 files added (on-disk size: 11784.6 KB)
+0004.893 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-themes.zip.tmp: size is now: 16.00 MB
+0005.062 (0) Created themes zip (0) - 16353.2 KB in 1.1 s (14526.3 KB/s) (sha1: 7d6faecea851a943414a3fd4294ab2e87cef7627, sha256: 0a3e573e180b01c32f70c41c5f5def56ef64f208eba1d4746c0edffe3292ee46)
+0005.064 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0005.064 (0) Looking for candidates to backup in: /homepages/12/d699130041/htdocs/www/strasbourg/wp-content/uploads
+0005.065 (0) finding files: 2017: adding to list (1)
+0005.065 (0) finding files: elementor: adding to list (2)
+0005.066 (0) finding files: redux: adding to list (3)
+0005.067 (0) finding files: siteorigin-widgets: adding to list (4)
+0005.067 (0) finding files: supsystic-tables: adding to list (5)
+0005.068 (0) finding files: wp-megamenu: adding to list (6)
+0005.069 (0) finding files: 2018: adding to list (7)
+0005.069 (0) finding files: titan-framework-mobmenu-css.css: adding to list (8)
+0005.070 (0) finding files: 2019: adding to list (9)
+0005.071 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0005.077 (0) Total entities for the zip file: 30 directories, 465 files (0 skipped as non-modified), 14.6 MB
+0005.079 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.081 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0005.083 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0005.085 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0005.171 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-uploads.zip.tmp: size is now: 14.70 MB
+0005.332 (0) Created uploads zip (0) - 15046.7 KB in 0.3 s (57792.8 KB/s) (sha1: 01cc0af0d6ef48e43740d70269dbb906104d6887, sha256: 2fdd8c9fb951478713a89af99359a2599836531378463b8529c29d7abcd678ee)
+0005.334 (0) Beginning backup of other directories found in the content directory (index: 0)
+0005.334 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0005.335 (0) Looking for candidates to backup in: /homepages/12/d699130041/htdocs/www/strasbourg/wp-content
+0005.335 (0) finding files: backups: skipping: excluded by options (glob)
+0005.336 (0) finding files: backups: skipping: excluded by options (glob)
+0005.336 (0) finding files: languages: adding to list (1)
+0005.337 (0) finding files: themes: skipping: this is the themes directory
+0005.337 (0) finding files: upgrade: skipping: excluded by options
+0005.338 (0) finding files: uploads: skipping: this is the uploads directory
+0005.338 (0) finding files: wflogs: adding to list (2)
+0005.339 (0) finding files: index.php: adding to list (3)
+0005.339 (0) finding files: updraft: skipping: this is the updraft directory
+0005.340 (0) finding files: testnouveauplugins: adding to list (4)
+0005.340 (0) finding files: plugins: skipping: this is the plugins directory
+0005.352 (0) Total entities for the zip file: 216 directories, 632 files (0 skipped as non-modified), 12.4 MB
+0005.354 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.357 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0005.359 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0005.361 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0005.363 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0005.364 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.4 MB, 632 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0005.883 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-others.zip.tmp: size is now: 4.10 MB
+0005.887 (0) Zip: backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-others.zip.tmp: 600 files added (on-disk size: 4201.1 KB)
+0005.993 (0) Created others zip (0) - 4518.6 KB in 0.7 s (6926.5 KB/s) (sha1: e570074a3cd29cab78ce76398e735561cfdc9d98, sha256: 8d73eea2f380cd2d4c221ed252c9ffcf9f6ef5866291bb715bc5645d46b629d5)
+0005.997 (0) Saving backup status to database (elements: 8)
+0006.002 (0) Beginning creation of database dump (WordPress DB)
+0006.004 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0006.013 (0) Binary mysqldump: error (code: 2)
+0006.021 (0) Table wp_options: Total expected rows (approximate): 802
+0006.304 (0) Table wp_options: Total rows added: 794 in 0.28 seconds
+0006.305 (0) Table wp_options: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_options.table.gz - 420.9 KB)
+0006.310 (0) Table wp_users: Total expected rows (approximate): 7
+0006.314 (0) Table wp_users: Total rows added: 7 in 0.00 seconds
+0006.315 (0) Table wp_users: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_users.table.gz - 1.1 KB)
+0006.323 (0) Table wp_usermeta: Total expected rows (approximate): 219
+0006.329 (0) Table wp_usermeta: Total rows added: 219 in 0.00 seconds
+0006.330 (0) Table wp_usermeta: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_usermeta.table.gz - 5 KB)
+0006.334 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0006.336 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0006.337 (0) Table wp_commentmeta: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0006.341 (0) Table wp_comments: Total expected rows (approximate): 0
+0006.345 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+0006.345 (0) Table wp_comments: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_comments.table.gz - 0.5 KB)
+0006.349 (0) Table wp_links: Total expected rows (approximate): 0
+0006.352 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0006.353 (0) Table wp_links: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_links.table.gz - 0.4 KB)
+0006.357 (0) Table wp_postmeta: Total expected rows (approximate): 3398
+0006.815 (0) Table wp_postmeta: Total rows added: 3398 in 0.46 seconds
+0006.816 (0) Table wp_postmeta: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_postmeta.table.gz - 392.4 KB)
+0006.820 (0) Table wp_posts: Total expected rows (approximate): 2558
+0007.281 (0) Table wp_posts: Total rows added: 2558 in 0.46 seconds
+0007.283 (0) Table wp_posts: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_posts.table.gz - 441.8 KB)
+0007.287 (0) Table wp_term_relationships: Total expected rows (approximate): 20
+0007.289 (0) Table wp_term_relationships: Total rows added: 20 in 0.00 seconds
+0007.290 (0) Table wp_term_relationships: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0007.298 (0) Table wp_term_taxonomy: Total expected rows (approximate): 8
+0007.300 (0) Table wp_term_taxonomy: Total rows added: 8 in 0.00 seconds
+0007.301 (0) Table wp_term_taxonomy: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_term_taxonomy.table.gz - 1.2 KB)
+0007.306 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0007.307 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0007.310 (0) Table wp_termmeta: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_termmeta.table.gz - 0.4 KB)
+0007.313 (0) Table wp_terms: Total expected rows (approximate): 8
+0007.315 (0) Table wp_terms: Total rows added: 8 in 0.00 seconds
+0007.315 (0) Table wp_terms: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_terms.table.gz - 0.5 KB)
+0007.318 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 63
+0007.321 (0) Table wp_yoast_seo_links: Total rows added: 63 in 0.00 seconds
+0007.322 (0) Table wp_yoast_seo_links: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_yoast_seo_links.table.gz - 1.3 KB)
+0007.325 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 348
+0007.328 (0) Table wp_yoast_seo_meta: Total rows added: 348 in 0.00 seconds
+0007.329 (0) Table wp_yoast_seo_meta: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_yoast_seo_meta.table.gz - 1.2 KB)
+0007.332 (0) Table wp_alm: Total expected rows (approximate): 1
+0007.334 (0) Table wp_alm: Total rows added: 1 in 0.00 seconds
+0007.335 (0) Table wp_alm: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_alm.table.gz - 0.5 KB)
+0007.338 (0) Table wp_duplicator_packages: Total expected rows (approximate): 0
+0007.340 (0) Table wp_duplicator_packages: Total rows added: 0 in 0.00 seconds
+0007.341 (0) Table wp_duplicator_packages: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_duplicator_packages.table.gz - 0.4 KB)
+0007.345 (0) Table wp_em_bookings: Total expected rows (approximate): 28
+0007.348 (0) Table wp_em_bookings: Total rows added: 28 in 0.00 seconds
+0007.349 (0) Table wp_em_bookings: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_em_bookings.table.gz - 1.5 KB)
+0007.353 (0) Table wp_em_events: Total expected rows (approximate): 13
+0007.359 (0) Table wp_em_events: Total rows added: 13 in 0.00 seconds
+0007.359 (0) Table wp_em_events: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_em_events.table.gz - 7.8 KB)
+0007.363 (0) Table wp_em_locations: Total expected rows (approximate): 28
+0007.365 (0) Table wp_em_locations: Total rows added: 28 in 0.00 seconds
+0007.366 (0) Table wp_em_locations: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_em_locations.table.gz - 1.4 KB)
+0007.370 (0) Table wp_em_meta: Total expected rows (approximate): 0
+0007.372 (0) Table wp_em_meta: Total rows added: 0 in 0.00 seconds
+0007.372 (0) Table wp_em_meta: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_em_meta.table.gz - 0.4 KB)
+0007.376 (0) Table wp_em_tickets: Total expected rows (approximate): 12
+0007.380 (0) Table wp_em_tickets: Total rows added: 12 in 0.00 seconds
+0007.381 (0) Table wp_em_tickets: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_em_tickets.table.gz - 0.6 KB)
+0007.385 (0) Table wp_em_tickets_bookings: Total expected rows (approximate): 28
+0007.387 (0) Table wp_em_tickets_bookings: Total rows added: 28 in 0.00 seconds
+0007.389 (0) Table wp_em_tickets_bookings: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_em_tickets_bookings.table.gz - 0.5 KB)
+0007.394 (0) Table wp_responsive_menu: Total expected rows (approximate): 212
+0007.398 (0) Table wp_responsive_menu: Total rows added: 212 in 0.00 seconds
+0007.399 (0) Table wp_responsive_menu: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_responsive_menu.table.gz - 1.8 KB)
+0007.402 (0) Table wp_supsystic_tbl_columns: Total expected rows (approximate): 0
+0007.403 (0) Table wp_supsystic_tbl_columns: Total rows added: 0 in 0.00 seconds
+0007.404 (0) Table wp_supsystic_tbl_columns: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_supsystic_tbl_columns.table.gz - 0.3 KB)
+0007.408 (0) Table wp_supsystic_tbl_diagrams: Total expected rows (approximate): 0
+0007.410 (0) Table wp_supsystic_tbl_diagrams: Total rows added: 0 in 0.00 seconds
+0007.411 (0) Table wp_supsystic_tbl_diagrams: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_supsystic_tbl_diagrams.table.gz - 0.3 KB)
+0007.415 (0) Table wp_supsystic_tbl_rows: Total expected rows (approximate): 15
+0007.418 (0) Table wp_supsystic_tbl_rows: Total rows added: 15 in 0.00 seconds
+0007.418 (0) Table wp_supsystic_tbl_rows: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_supsystic_tbl_rows.table.gz - 0.7 KB)
+0007.421 (0) Table wp_supsystic_tbl_tables: Total expected rows (approximate): 1
+0007.424 (0) Table wp_supsystic_tbl_tables: Total rows added: 1 in 0.00 seconds
+0007.424 (0) Table wp_supsystic_tbl_tables: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_supsystic_tbl_tables.table.gz - 1.1 KB)
+0007.428 (0) Table wp_wfBadLeechers: Total expected rows (approximate): 0
+0007.431 (0) Table wp_wfBadLeechers: Total rows added: 0 in 0.00 seconds
+0007.432 (0) Table wp_wfBadLeechers: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfBadLeechers.table.gz - 0.3 KB)
+0007.436 (0) Table wp_wfBlockedCommentLog: Total expected rows (approximate): 0
+0007.437 (0) Table wp_wfBlockedCommentLog: Total rows added: 0 in 0.00 seconds
+0007.438 (0) Table wp_wfBlockedCommentLog: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfBlockedCommentLog.table.gz - 0.4 KB)
+0007.441 (0) Table wp_wfBlockedIPLog: Total expected rows (approximate): 0
+0007.445 (0) Table wp_wfBlockedIPLog: Total rows added: 0 in 0.00 seconds
+0007.445 (0) Table wp_wfBlockedIPLog: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfBlockedIPLog.table.gz - 0.4 KB)
+0007.450 (0) Table wp_wfBlocks: Total expected rows (approximate): 0
+0007.452 (0) Table wp_wfBlocks: Total rows added: 0 in 0.00 seconds
+0007.453 (0) Table wp_wfBlocks: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfBlocks.table.gz - 0.4 KB)
+0007.456 (0) Table wp_wfBlocks7: Total expected rows (approximate): 0
+0007.458 (0) Table wp_wfBlocks7: Total rows added: 0 in 0.00 seconds
+0007.459 (0) Table wp_wfBlocks7: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfBlocks7.table.gz - 0.4 KB)
+0007.462 (0) Table wp_wfBlocksAdv: Total expected rows (approximate): 0
+0007.463 (0) Table wp_wfBlocksAdv: Total rows added: 0 in 0.00 seconds
+0007.464 (0) Table wp_wfBlocksAdv: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfBlocksAdv.table.gz - 0.4 KB)
+0007.469 (0) Table wp_wfConfig: Total expected rows (approximate): 243
+0007.501 (0) Table wp_wfConfig: Total rows added: 243 in 0.03 seconds
+0007.502 (0) Table wp_wfConfig: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfConfig.table.gz - 358.8 KB)
+0007.507 (0) Table wp_wfCrawlers: Total expected rows (approximate): 6
+0007.509 (0) Table wp_wfCrawlers: Total rows added: 6 in 0.00 seconds
+0007.510 (0) Table wp_wfCrawlers: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfCrawlers.table.gz - 0.5 KB)
+0007.515 (0) Table wp_wfFileChanges: Total expected rows (approximate): 0
+0007.518 (0) Table wp_wfFileChanges: Total rows added: 0 in 0.00 seconds
+0007.519 (0) Table wp_wfFileChanges: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfFileChanges.table.gz - 0.3 KB)
+0007.523 (0) Table wp_wfFileMods: Total expected rows (approximate): 7481
+0007.664 (0) Table wp_wfFileMods: Total rows added: 7481 in 0.14 seconds
+0007.665 (0) Table wp_wfFileMods: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfFileMods.table.gz - 585.1 KB)
+0007.668 (0) Table wp_wfHits: Total expected rows (approximate): 246
+0007.674 (0) Table wp_wfHits: Total rows added: 246 in 0.01 seconds
+0007.675 (0) Table wp_wfHits: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfHits.table.gz - 6.7 KB)
+0007.679 (0) Table wp_wfHoover: Total expected rows (approximate): 0
+0007.682 (0) Table wp_wfHoover: Total rows added: 0 in 0.00 seconds
+0007.683 (0) Table wp_wfHoover: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfHoover.table.gz - 0.3 KB)
+0007.687 (0) Table wp_wfIssues: Total expected rows (approximate): 25
+0007.691 (0) Table wp_wfIssues: Total rows added: 25 in 0.00 seconds
+0007.692 (0) Table wp_wfIssues: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfIssues.table.gz - 6.8 KB)
+0007.696 (0) Table wp_wfKnownFileList: Total expected rows (approximate): 7481
+0007.762 (0) Table wp_wfKnownFileList: Total rows added: 7481 in 0.07 seconds
+0007.763 (0) Table wp_wfKnownFileList: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfKnownFileList.table.gz - 72.8 KB)
+0007.766 (0) Table wp_wfLeechers: Total expected rows (approximate): 17
+0007.769 (0) Table wp_wfLeechers: Total rows added: 17 in 0.00 seconds
+0007.770 (0) Table wp_wfLeechers: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfLeechers.table.gz - 0.5 KB)
+0007.773 (0) Table wp_wfLiveTrafficHuman: Total expected rows (approximate): 0
+0007.775 (0) Table wp_wfLiveTrafficHuman: Total rows added: 0 in 0.00 seconds
+0007.775 (0) Table wp_wfLiveTrafficHuman: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfLiveTrafficHuman.table.gz - 0.3 KB)
+0007.778 (0) Table wp_wfLockedOut: Total expected rows (approximate): 0
+0007.781 (0) Table wp_wfLockedOut: Total rows added: 0 in 0.00 seconds
+0007.783 (0) Table wp_wfLockedOut: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfLockedOut.table.gz - 0.3 KB)
+0007.787 (0) Table wp_wfLocs: Total expected rows (approximate): 0
+0007.789 (0) Table wp_wfLocs: Total rows added: 0 in 0.00 seconds
+0007.790 (0) Table wp_wfLocs: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfLocs.table.gz - 0.4 KB)
+0007.794 (0) Table wp_wfLogins: Total expected rows (approximate): 433
+0007.805 (0) Table wp_wfLogins: Total rows added: 433 in 0.01 seconds
+0007.806 (0) Table wp_wfLogins: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfLogins.table.gz - 8.1 KB)
+0007.809 (0) Table wp_wfNet404s: Total expected rows (approximate): 0
+0007.811 (0) Table wp_wfNet404s: Total rows added: 0 in 0.00 seconds
+0007.811 (0) Table wp_wfNet404s: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfNet404s.table.gz - 0.3 KB)
+0007.814 (0) Table wp_wfNotifications: Total expected rows (approximate): 75
+0007.817 (0) Table wp_wfNotifications: Total rows added: 75 in 0.00 seconds
+0007.818 (0) Table wp_wfNotifications: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfNotifications.table.gz - 1.9 KB)
+0007.821 (0) Table wp_wfPendingIssues: Total expected rows (approximate): 0
+0007.824 (0) Table wp_wfPendingIssues: Total rows added: 0 in 0.00 seconds
+0007.824 (0) Table wp_wfPendingIssues: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfPendingIssues.table.gz - 0.4 KB)
+0007.828 (0) Table wp_wfReverseCache: Total expected rows (approximate): 0
+0007.831 (0) Table wp_wfReverseCache: Total rows added: 0 in 0.00 seconds
+0007.831 (0) Table wp_wfReverseCache: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfReverseCache.table.gz - 0.3 KB)
+0007.835 (0) Table wp_wfSNIPCache: Total expected rows (approximate): 0
+0007.838 (0) Table wp_wfSNIPCache: Total rows added: 0 in 0.00 seconds
+0007.839 (0) Table wp_wfSNIPCache: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfSNIPCache.table.gz - 0.4 KB)
+0007.843 (0) Table wp_wfScanners: Total expected rows (approximate): 2
+0007.845 (0) Table wp_wfScanners: Total rows added: 2 in 0.00 seconds
+0007.846 (0) Table wp_wfScanners: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfScanners.table.gz - 0.4 KB)
+0007.849 (0) Table wp_wfStatus: Total expected rows (approximate): 951
+0007.858 (0) Table wp_wfStatus: Total rows added: 951 in 0.01 seconds
+0007.859 (0) Table wp_wfStatus: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfStatus.table.gz - 15.3 KB)
+0007.862 (0) Table wp_wfThrottleLog: Total expected rows (approximate): 0
+0007.864 (0) Table wp_wfThrottleLog: Total rows added: 0 in 0.00 seconds
+0007.864 (0) Table wp_wfThrottleLog: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfThrottleLog.table.gz - 0.4 KB)
+0007.867 (0) Table wp_wfVulnScanners: Total expected rows (approximate): 0
+0007.869 (0) Table wp_wfVulnScanners: Total rows added: 0 in 0.00 seconds
+0007.870 (0) Table wp_wfVulnScanners: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfVulnScanners.table.gz - 0.3 KB)
+0007.872 (0) Table wp_wp_floating_menu_custom_templates: Total expected rows (approximate): 0
+0007.874 (0) Table wp_wp_floating_menu_custom_templates: Total rows added: 0 in 0.00 seconds
+0007.874 (0) Table wp_wp_floating_menu_custom_templates: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wp_floating_menu_custom_templates.table.gz - 0.3 KB)
+0007.877 (0) Table wp_wp_floating_menu_details: Total expected rows (approximate): 0
+0007.879 (0) Table wp_wp_floating_menu_details: Total rows added: 0 in 0.00 seconds
+0007.879 (0) Table wp_wp_floating_menu_details: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wp_floating_menu_details.table.gz - 0.3 KB)
+0007.884 (0) Table wp_wpb2d_processed_dbtables: Total expected rows (approximate): 0
+0007.887 (0) Table wp_wpb2d_processed_dbtables: Total rows added: 0 in 0.00 seconds
+0007.888 (0) Table wp_wpb2d_processed_dbtables: finishing file (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wpb2d_processed_dbtables.table.gz - 0.3 KB)
+0007.891 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_options.table.gz (1/58): adding to final database dump
+0007.990 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_users.table.gz (2/58): adding to final database dump
+0007.991 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_usermeta.table.gz (3/58): adding to final database dump
+0007.993 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_commentmeta.table.gz (4/58): adding to final database dump
+0007.994 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_comments.table.gz (5/58): adding to final database dump
+0007.994 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_links.table.gz (6/58): adding to final database dump
+0007.995 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_postmeta.table.gz (7/58): adding to final database dump
+0008.115 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_posts.table.gz (8/58): adding to final database dump
+0008.257 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_term_relationships.table.gz (9/58): adding to final database dump
+0008.258 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_term_taxonomy.table.gz (10/58): adding to final database dump
+0008.259 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_termmeta.table.gz (11/58): adding to final database dump
+0008.259 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_terms.table.gz (12/58): adding to final database dump
+0008.260 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_yoast_seo_links.table.gz (13/58): adding to final database dump
+0008.260 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_yoast_seo_meta.table.gz (14/58): adding to final database dump
+0008.261 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_alm.table.gz (15/58): adding to final database dump
+0008.262 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_duplicator_packages.table.gz (16/58): adding to final database dump
+0008.262 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_em_bookings.table.gz (17/58): adding to final database dump
+0008.263 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_em_events.table.gz (18/58): adding to final database dump
+0008.264 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_em_locations.table.gz (19/58): adding to final database dump
+0008.265 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_em_meta.table.gz (20/58): adding to final database dump
+0008.266 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_em_tickets.table.gz (21/58): adding to final database dump
+0008.266 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_em_tickets_bookings.table.gz (22/58): adding to final database dump
+0008.267 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_responsive_menu.table.gz (23/58): adding to final database dump
+0008.268 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_supsystic_tbl_columns.table.gz (24/58): adding to final database dump
+0008.268 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_supsystic_tbl_diagrams.table.gz (25/58): adding to final database dump
+0008.269 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_supsystic_tbl_rows.table.gz (26/58): adding to final database dump
+0008.269 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_supsystic_tbl_tables.table.gz (27/58): adding to final database dump
+0008.270 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfBadLeechers.table.gz (28/58): adding to final database dump
+0008.270 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfBlockedCommentLog.table.gz (29/58): adding to final database dump
+0008.271 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfBlockedIPLog.table.gz (30/58): adding to final database dump
+0008.271 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfBlocks.table.gz (31/58): adding to final database dump
+0008.272 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfBlocks7.table.gz (32/58): adding to final database dump
+0008.273 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfBlocksAdv.table.gz (33/58): adding to final database dump
+0008.273 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfConfig.table.gz (34/58): adding to final database dump
+0008.290 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfCrawlers.table.gz (35/58): adding to final database dump
+0008.290 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfFileChanges.table.gz (36/58): adding to final database dump
+0008.291 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfFileMods.table.gz (37/58): adding to final database dump
+0008.339 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfHits.table.gz (38/58): adding to final database dump
+0008.341 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfHoover.table.gz (39/58): adding to final database dump
+0008.342 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfIssues.table.gz (40/58): adding to final database dump
+0008.344 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfKnownFileList.table.gz (41/58): adding to final database dump
+0008.362 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfLeechers.table.gz (42/58): adding to final database dump
+0008.363 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfLiveTrafficHuman.table.gz (43/58): adding to final database dump
+0008.363 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfLockedOut.table.gz (44/58): adding to final database dump
+0008.364 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfLocs.table.gz (45/58): adding to final database dump
+0008.365 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfLogins.table.gz (46/58): adding to final database dump
+0008.367 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfNet404s.table.gz (47/58): adding to final database dump
+0008.368 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfNotifications.table.gz (48/58): adding to final database dump
+0008.369 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfPendingIssues.table.gz (49/58): adding to final database dump
+0008.370 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfReverseCache.table.gz (50/58): adding to final database dump
+0008.371 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfSNIPCache.table.gz (51/58): adding to final database dump
+0008.372 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfScanners.table.gz (52/58): adding to final database dump
+0008.372 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfStatus.table.gz (53/58): adding to final database dump
+0008.375 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfThrottleLog.table.gz (54/58): adding to final database dump
+0008.376 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wfVulnScanners.table.gz (55/58): adding to final database dump
+0008.377 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wp_floating_menu_custom_templates.table.gz (56/58): adding to final database dump
+0008.378 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wp_floating_menu_details.table.gz (57/58): adding to final database dump
+0008.378 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db-table-wp_wpb2d_processed_dbtables.table.gz (58/58): adding to final database dump
+0008.379 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db.gz: finished writing out complete database file (2312 KB)
+0008.409 (0) Total database tables backed up: 58 (backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db.gz, size: 2393973, sha256)
+0008.416 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0008.417 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0008.417 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0008.418 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-others.zip: others: This file has not yet been successfully uploaded: will queue
+0008.418 (0) backup_2019-02-18-2112_STRASBOURG_44e9444f3ab9-db.gz: db: This file has not yet been successfully uploaded: will queue
+0008.419 (0) Saving backup history. Total backup size: 62.9 MB
+0008.423 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0008.426 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0008.426 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-73d11779454037230974d465ab5d2921)
+0011.570 (0) ERROR: Have not yet obtained an access token from Google (has the user authorised?) (Invalid request (refresh token not present).) (no_refresh_token)
+0011.571 (0) An error condition has occurred for the first time during this job
+0011.574 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0011.575 (0) Number of backup sets in history: 3; groups (db): 1
+0011.575 (0) Examining (for databases) backup set with group_id=0, nonce=44e9444f3ab9, datestamp=1550524334 (Feb 18 2019 21:12:14)
+0011.576 (0) This backup set is the backup set just made, so will not be deleted.
+0011.576 (0) Examining (for databases) backup set with group_id=0, nonce=895c6ce36a74, datestamp=1550523945 (Feb 18 2019 21:05:45)
+0011.576 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.576 (0) Examining (for databases) backup set with group_id=0, nonce=63b97a6e96aa, datestamp=1550523576 (Feb 18 2019 20:59:36)
+0011.576 (0) 1550523576: db: this set includes a database (backup_2019-02-18-2059_STRASBOURG_63b97a6e96aa-db.gz); db count is now 2
+0011.576 (0) 1550523576: db: over retain limit (2); will delete this database
+0011.576 (0) Delete file: backup_2019-02-18-2059_STRASBOURG_63b97a6e96aa-db.gz, service=googledrive
+0011.577 (0) Deleting local copy (backup_2019-02-18-2059_STRASBOURG_63b97a6e96aa-db.gz)
+0012.031 (0) ERROR: Have not yet obtained an access token from Google (has the user authorised?) (Invalid request (refresh token not present).) (no_refresh_token)
+0012.033 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0012.034 (0) Number of backup sets in history: 3; groups (files): 1
+0012.034 (0) Examining (for files) backup set with nonce=44e9444f3ab9, datestamp=1550524334 (Feb 18 2019 21:12:14)
+0012.034 (0) This backup set is the backup set just made, so will not be deleted.
+0012.036 (0) This backup set is the backup set just made, so will not be deleted.
+0012.036 (0) This backup set is the backup set just made, so will not be deleted.
+0012.036 (0) This backup set is the backup set just made, so will not be deleted.
+0012.036 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.037 (0) Examining (for files) backup set with nonce=895c6ce36a74, datestamp=1550523945 (Feb 18 2019 21:05:45)
+0012.037 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.037 (0) Examining (for files) backup set with nonce=63b97a6e96aa, datestamp=1550523576 (Feb 18 2019 20:59:36)
+0012.037 (0) plugins: over retain limit (2); will delete this file entity
+0012.037 (0) themes: over retain limit (2); will delete this file entity
+0012.037 (0) uploads: over retain limit (2); will delete this file entity
+0012.037 (0) others: over retain limit (2); will delete this file entity
+0012.037 (0) Delete file: backup_2019-02-18-2059_STRASBOURG_63b97a6e96aa-plugins.zip, service=googledrive
+0012.038 (0) Deleting local copy (backup_2019-02-18-2059_STRASBOURG_63b97a6e96aa-plugins.zip)
+0012.048 (0) Delete file: backup_2019-02-18-2059_STRASBOURG_63b97a6e96aa-themes.zip, service=googledrive
+0012.049 (0) Deleting local copy (backup_2019-02-18-2059_STRASBOURG_63b97a6e96aa-themes.zip)
+0012.056 (0) Delete file: backup_2019-02-18-2059_STRASBOURG_63b97a6e96aa-uploads.zip, service=googledrive
+0012.056 (0) Deleting local copy (backup_2019-02-18-2059_STRASBOURG_63b97a6e96aa-uploads.zip)
+0012.063 (0) Delete file: backup_2019-02-18-2059_STRASBOURG_63b97a6e96aa-others.zip, service=googledrive
+0012.064 (0) Deleting local copy (backup_2019-02-18-2059_STRASBOURG_63b97a6e96aa-others.zip)
+0012.674 (0) ERROR: Have not yet obtained an access token from Google (has the user authorised?) (Invalid request (refresh token not present).) (no_refresh_token)
+0012.676 (0) This backup set is now empty; will remove from history
+0012.677 (0) Deleting log file (log.63b97a6e96aa.txt)
+0012.678 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0012.681 (0) Resume backup (44e9444f3ab9, 0): finish run
+0012.682 (0) Decremented the semaphore (fd) by 1
+0012.683 (0) Semaphore (fd) unlocked
+0012.684 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0012.686 (0) Rescheduling resumption 1: moving to 100 seconds from now (1550524446)
+0012.687 (0) No email will/can be sent - the user has not configured an email address.
+0012.687 (0) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue

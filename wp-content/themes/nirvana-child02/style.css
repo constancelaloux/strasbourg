@@ -1,0 +1,643 @@
+/*
+Theme Name: Nirvana Child 02
+Theme URI: https://www.cryoutcreations.eu/wordpress-themes/nirvana
+Template: nirvana
+Author: Cryout Creations
+Author URI: https://www.cryoutcreations.eu
+Description: Imagine a land of infinite beauty and overwhelming magnificence. Imagine seas of freedom and oceans of peace joining together with splashing waves of pure love. Imagine high mountains of hope, hills of reason and deep valleys of knowledge - all covered with dense forests of complete calm. In this mystic land, under a spotless sky of clarity and a bright, cleansing sun you will find Nirvana. The search is finally over; you can now rest, relax and take a deep breath. Nirvana will do the rest with a framework of over 200 settings in a user-friendly interface, a very effective responsive design, boxed or wide layouts with up to 3 columns, easy to use typography equipped with Google fonts, all post formats, 8 page templates (magazine and blog layouts included), 12 widget areas and a presentation page complete with an editable slider and columns. Nirvana also gives you over 40 socials to choose from, is translation ready and has full RTL support. All you have to do is imagine it and with Nirvana it will come true.
+Tags: one-column,two-columns,three-columns,right-sidebar,left-sidebar,footer-widgets,custom-background,custom-colors,custom-header,custom-menu,flexible-header,featured-image-header,featured-images,front-page-post-form,full-width-template,microformats,post-formats,rtl-language-support,sticky-post,theme-options,threaded-comments,translation-ready,blog,education,news,portfolio
+Version: 1.4.2.2.1510220924
+Updated: 2017-11-09 09:48:44
+
+*/
+
+/*
+Vous pouvez ajouter du CSS personnalisé ici.
+
+Cliquez sur l’icône d’aide ci-dessus pour en savoir plus.
+*/
+
+/*Bouton couleur du tableau de réservation des activités*/
+
+button:hover 
+{
+color: black;
+background-color:#CB5920;
+}
+
+button
+{
+background-color:#1EC8BB;
+}
+
+/*Page tableau des réservations*/
+
+/*Création du tableau*/
+.events-table tr, th
+{
+border: 1px solid white;
+}
+
+@media all and (min-width: 980px)
+{
+.events-table td
+{
+border: 1px solid white;
+}
+}
+
+@media all and (max-width: 979px)
+{
+.events-table 
+{
+max-width: 98%;
+}
+
+th
+{ 
+display: none;
+}
+.events- table
+{
+display: block;
+}
+}
+
+/*Survol de la souris*/
+tr.trevent:hover
+{
+background-color: #AAAAAA;
+}
+
+/*Centrer le texte du tableau en responsive*/
+
+@media all and (max-width: 979px)
+{
+#content tr td
+{
+text-align: center;
+}
+}
+
+@media all and (max-width: 979px)
+{
+tr.trevent
+{
+margin-bottom: 10px;
+}
+}
+
+@media (max-width: 639px)
+{
+body, #content, #content p, #content ul, #content ol, #content code, #content pre, #content blockquote, table, table td, #content dt, #content dd, .ppbox, .column-text 
+{
+    font-size: 15px !important;
+}
+}
+
+/*Centrer le texte du tableau*/
+th
+{
+text-align: center;
+}
+
+/*Contact form*/
+
+@media all and (max-width: 400px)
+{
+#content p .wpcf7-form-control
+{
+font-size: 15px; 
+}
+}
+
+/*Page accueil*/
+
+/*Centrer les titres de la page principale*/
+#content .entry-content h3, #pp-afterslider h3
+{
+text-align: center;
+}
+
+/*Menu accueil*/
+/*Menu à centrer*/
+#menu-item-79 
+{
+width: 150px;
+}
+
+/*image maison du menu*/
+
+#access a 
+{
+display: flex;
+flex-direction: row-reverse;
+margin-left: -1%;
+}
+
+.menu-image
+{
+position: relative;
+bottom: 0px;
+}
+
+#access ul li a, #access ul li a span span.menu-image-title
+{
+float: right;
+}
+
+.searchform input[type="search"]
+{
+margin-left: 4%;
+}
+
+#menu-item-2385 .menu-image-title 
+{
+margin-left: 2px;
+margin-top: 8px;
+}
+
+@media (max-width: 640px)
+{
+#access a span 
+{
+padding: 0px 10px 15px 10px!important;
+}
+}
+
+@media (max-width: 979px)
+{
+#access ul li a, #access ul li a span span.menu-image-title
+{
+float: left;
+}
+}
+
+/*mettre la photo du header en grand */
+#bg_image /*photo header*/
+
+{
+width: 100%;
+}
+
+/*Encart accueil*/
+.widget-container ul li
+{
+margin-top: 139px;
+}
+
+.rpwe-summary 
+{
+font-size : 16px!important;
+color: #ffffff!important;
+text-align: center;
+background-color: black!important;
+}
+
+/*résumé encart accueil*/
+.rpwe-block h3
+{
+text-align: center;
+}
+
+
+
+
+
+/*Remonter actu page principale en responsive*/
+@media all and (max-width: 979px)
+{
+.widget-area a:link, .widget-area a:visited, .widget-area li
+{
+margin-top: -70px;
+}
+}
+
+/*Descendre titre actu page principale*/
+
+.sidey .widget-title
+{
+position: relative; 
+margin-bottom: -60px;
+margin-top: 70px;
+}
+
+
+
+
+
+/*Barre de menu*/
+
+@media all and (max-width: 979px) and (min-width: 649px)
+{
+#nav-toggle span:before 
+{
+content: "\e820"; 
+/*Affichage logo mobile*/
+font-family: "elusive"; /*Affichage logo mobile*/
+font-size: 16px;
+line-height: 40px;
+}
+#nav-toggle
+{
+display: block; /*L'icone reste en haut*/
+margin: 0 auto;
+cursor: pointer;
+width: 100%;
+padding: 0px 1.5%; /*L'icone est placé a gauche avec une marge */
+}
+
+#access .menu ul, #access .menu ul li 
+{
+margin: 0;/*Marge sur la gauche du menu*/
+width: 100%;
+}
+}
+
+/*le menu se met en haut et se rétracte quand on ferme le bouton mobile*/
+@media all and (max-width: 649px)
+{
+#nav-toggle
+{
+position:fixed; 
+top:0;
+}
+}
+
+/*Le menu se place en dessous de l'icone mobile*/
+nav#access
+{
+display: none;
+top: 40px;
+}
+
+/*Le menu se place en haut*/
+#access
+{
+position:fixed; 
+top:0;
+}
+@media all and (min-width: 980px)
+{
+	
+/*La barre de menu se place en haut*/
+nav#access
+{
+position:fixed; 
+top:0;
+}
+	
+/*Le menu se place en block*/
+#access 
+{
+display:block!important;
+}
+}
+
+/*La barre de menu au dessus quand on descend dans la page*/
+nav#access
+{
+z-index: 300;
+}
+
+#nav-toggle
+{
+z-index: 100;
+}
+
+/*Footer*/
+#site-copyright
+{
+font-size: 20px;
+}
+
+/*Date du formulaire */
+/*	element.style {
+}*/input[type="date"]
+{
+text-align: center;
+}
+
+/*Les titres des actus pour safari*/
+@media (max-width: 600px)
+{
+.rpwwt-post-title
+{
+border: 2px green solid;
+}
+}
+
+/*La map des activités du mois*/
+i
+{
+display: none;
+}
+
+/*Activités du mois titres des activités*/
+div#content h1.entry-title
+{
+font-weight: bold;
+font-size: 23px;
+}
+
+/*Titre des article plus gros et en blanc*/
+@media all and (min-width: 641px)
+{
+.entry-title a
+{
+font-size: 30px;
+}
+}
+
+#content h2.entry-title a:hover
+{
+color: white;
+}
+
+/*Formulaire de réservation places*/
+select#em-ticket-spaces-1.em-ticket-select
+{
+color: #ce5b22;
+}
+
+/*L image du header*/
+@media all and (min-width: 980px)
+{
+#bg_image 
+{
+height: 330px;
+}
+}
+
+@media all and (max-width: 979px) and (min-width: 651px)
+{
+#bg_image 
+{
+height: 290px;
+}
+}
+
+/*Commentaires page activités du mois*/
+#respond
+{
+display: none;
+} 
+
+
+/*background et couleur des pays */
+select
+{
+color: white!important;
+background-color:black!important;
+} 
+
+/*Centrer et élargir la date du formulaire de contact*/
+input[type="text"]
+{
+text-align: center;
+}
+.ui-datepicker 
+{
+width: 19em;
+}
+
+/*Navigation menu*/
+@media (min-width: 980px)
+{
+nav#access
+{
+position: fixed;
+top: 0;
+}
+}
+
+/*L'icone mobile en haut*/
+@media (min-width: 650px) and (max-width: 979px)
+{
+#nav-toggle
+{
+position:fixed; 
+top:0;
+}
+}
+
+/*Couleur encart fond*/
+.rpwe-block 
+{
+Background-color: black!important;
+}
+
+/*search bar*/
+
+@media (min-width: 980px)
+{
+#ajaxsearchlite1 
+{
+width:200px; 
+display:inline-block;
+top:10px;
+}
+}
+
+@media (max-width: 979px)
+{
+#ajaxsearchlite1
+{
+width: 200px;
+top:5px;
+left: 10px;
+}
+}
+
+.nirvana-menu-center #access > .menu
+{
+display: inline-block;
+}
+
+/*actualités responsive*/
+
+@media (max-width: 800px)
+{
+#content img, #content article.post img, #content article .wp-caption, article embed
+{
+width: 100%;
+}
+
+entry-summary
+{
+display: inline-flex;
+flex-direction: column;
+align-items: center;
+}
+}
+
+/*Responsive et centrer réservez formulaire activités du mois*/
+
+.em-booking
+{
+display: inline-flex;
+flex-direction: column;
+}
+
+p.em-tickets-spaces 
+{
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
+}
+
+p.em-booking-form-details
+{
+display: inline-flex;
+flex-direction: column;
+/* text-align: center; */
+align-items: center;
+}
+
+.em-booking-form label
+{
+width: 100%;
+}
+
+.em-booking-form-details
+{
+display: flex;
+flex-direction: column;
+}
+
+.em-booking-form-details {
+padding: 0px;
+width: 100%;
+}
+
+/*img header à modif en responsive*/
+@media (min-width: 980px)
+{
+#branding 
+{
+margin-top: 40px;
+}
+}
+
+@media (min-width: 782px) and (max-width: 979px)
+{
+#branding
+{
+margin-top: 10px;
+}
+}
+
+@media (max-width: 981px)
+{
+#branding 
+{
+margin-top: 50px;
+}
+}
+
+.site-identity
+{
+align-items: center;
+display: flex;
+flex-direction: column;
+margin-top:10%!important;
+height: 50px!important;
+}
+
+#header-container
+{
+width: 100%!important;
+}
+
+#branding {
+height: 100%;
+}
+
+
+/*header navbar height */
+nav#access 
+{
+padding-bottom: 10px;
+}
+
+#branding 
+{
+height: 100%!important;
+}
+
+
+/*Logo header*/
+
+#header-widget-area
+{
+position: absolute;
+width: 95%!important;
+height: 80%;
+z-index: 2!important;
+}
+
+@media (max-width: 800px)
+{
+#header-widget-area 
+{
+position: absolute!important;
+margin-top:5%;
+}
+}
+
+@media (min-width: 979px)
+{
+#header-widget-area
+{
+margin-top:3%;
+}
+}
+
+/*img header*/
+#bg_image
+{
+max-width: 100%!important;
+height: auto!important;
+}
+
+/*Contact form*/
+@media (max-width: 400px)
+{
+#content p .wpcf7-form-control
+{
+width: 80%;
+}
+}
+
+/*Icon strasbourg header*/
+@media all and (max-width: 500px)
+{
+.so-widget-sow-image-default-9e7b621efa2e .sow-image-container 
+{
+	  display: inline-flex;
+    height: 40px;
+    width: 35px;
+}
+}
+
+/*Bouton couleur du tableau de réservation des activités*/
+
+button:hover 
+{
+color: black;
+background-color:#CB5920;
+}
+
+button
+{
+background-color:#1EC8BB;
+}
+
+
+
+
+/*logo strasbourg header*/
+.widget-container a {
+    border-bottom: 0px dotted transparent;
+}

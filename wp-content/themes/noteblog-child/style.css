@@ -1,0 +1,35 @@
+/*
+Theme Name: Noteblog chil
+Description: Noteblog child theme
+Author: Constance Laloux
+Author URI: https://www.wpserveur.net
+Template: noteblog 
+Version: 0.1.0
+*/
+
+@import url("../noteblog/style.css");
+
+.site-header {
+    background: #1b1b1b;
+    position: relative;
+    width: 100%;
+    margin-bottom: 3em;
+    margin-top: 2em
+    overflow: hidden;
+    background-size: cover;
+    padding: 170px 0
+}
+
+h3 {
+    text-align: center;
+}
+
+img { 
+-webkit-border-radius: 25px; 
+-moz-border-radius: 25px; 
+border-radius: 25px; 
+}
+
+h1.entry-title { 
+	margin-left: 20%;
+}
